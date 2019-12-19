@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Movie search app</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+<header>
+    <nav class="navbar-expand-lg navbar-dark bg-dark">
+        <a href="#" class="navbar-brand my-3">Movie Search</a>
+    </nav>
+</header>
+
+
+<main class="container mt-4">
+    <form action="">
+        <fieldset class="form-group">
+            <label for="searchTerm">Search</label>
+            <input type="text" name="" id="searchTerm"
+                   class="form-control" placeholder="Enter a movie title">
+        </fieldset>
+        <button type="submit" class="btn btn-primary">Go</button>
+    </form>
+    <section class="row">
+        <section class="mt-2 col-9 row" id="results"></section>
+        <section class="mt-2 col-3 row">
+            <h3>Watch Later</h3>
+            <section class="row" id="watch-later">
+            </section>
+        </section>
+    </section>
+</main>
+
+<script src="main.js" charset="utf-8"></script>
+</body>
+</html>
